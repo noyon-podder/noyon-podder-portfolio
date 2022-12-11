@@ -1,0 +1,21 @@
+.sub-heading {
+  position: relative;
+}
+.sub-heading::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #858792;
+  top: 0;
+  left: -20px;
+}
+.sub-heading::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #858792;
+  top: 0;
+  left: -13px;
+}

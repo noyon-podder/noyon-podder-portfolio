@@ -10,8 +10,8 @@ const Header = () => {
    <Lottie animationData={animation}/>
     <div>
     <div className="header-content">
-        <h3>Product Manager</h3>
-        <h1 className="header-title">
+        <h3 className="sub-heading">Product Manager</h3>
+        <h1 className="heading">
           I'm Noyon Podder <br />A{" "}
           <span className="text-warning">Front End Developer</span>
         </h1>
@@ -30,9 +30,7 @@ const Header = () => {
     </div>
   </div>
 </div>
-    // <div className="h-screen flex items-center">
-      
-    // </div>
+    
   );
 };
 
