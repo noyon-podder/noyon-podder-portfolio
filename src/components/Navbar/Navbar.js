@@ -17,14 +17,17 @@ const Navbar = () => {
             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
           </Link>
           <ul className="p-2">
-            <li><Link>Submenu 1</Link></li>
-            <li><Link>Submenu 2</Link></li>
+          <li><Link className='text-white mx-2 text-base'>Home</Link></li>
+        <li><Link className='text-white mx-2 text-base'>About</Link></li>
+        <li><Link className='text-white mx-2 text-base'>Portfolio</Link></li>
+        <li><Link className='text-white mx-2 text-base'>Blog</Link></li>
+        <li><Link className='text-white mx-2 text-base'>Contact</Link></li>  
           </ul>
         </li>
         <li><Link>Item 3</Link></li>
       </ul>
     </div>
-    <Link to="/" className="text-2xl font-semibold text-white tracking-wider">Port<span className='text-primary tracking-wider'>folio.</span></Link>
+    <Link to="/" className="text-2xl font-semibold text-white tracking-wider">Port<span className='text-warning tracking-wider'>folio.</span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
