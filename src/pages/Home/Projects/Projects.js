@@ -5,12 +5,12 @@ import './Projects.css';
 const Projects = () => {
     const [projectsData, setProjectsData] = useState([])
     useEffect( () => {
-        fetch('portfolio.json')
+        fetch('https://portfolio-server-liard.vercel.app/projects')
         .then(res => res.json())
         .then(data => setProjectsData(data))
     },[])
     return (
-        <div className='bg-[#2a2c39] pb-20'>
+        <div className='pb-20'>
             <h3 className='sub-heading text-xl font-normal'>Awesome Portfolio</h3>
             <h1 className='heading'>My Complete Project</h1>
 

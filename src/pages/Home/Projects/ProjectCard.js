@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const ProjectCard = ({ project }) => {
-    const {image, title, description, id} = project
+    const {image, title, description, _id} = project
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-xl portfolio">
       <figure>
@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title text-white justify-between">{title}
-        <Link to={`/portfolio/${id}`}className="text-warning text-sm font-normal">Read More</Link>
+        <Link to={`/portfolio/${_id}`}className="text-warning text-sm font-normal">Details</Link>
         </h2>
         <p>{description}</p>
         
